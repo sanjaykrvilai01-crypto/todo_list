@@ -9,7 +9,7 @@ import PersonalTracker from './PersonalTracker';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/todo_list">
       <Routes>
         <Route path="/" element={<Navigate to="/login" />} />
         <Route path="/login" element={<Login />} />
